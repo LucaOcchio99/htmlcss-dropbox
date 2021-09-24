@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* STILE HEADER */
+header {
+    height: 15vh;
+    background-color: aquamarine
+}
+
+.sinistra,
+.destra {
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0,0,0, .25);
+    border: 0.5px solid black;
+    display: inline-block;
+} 
+
+
+/* STILE ARTICLE */
+article {
+    height: 80vh;
+    background-color: burlywood;
+    
+    position: relative;
+}
+
+section {
+    height: 80%;
+    width: 70%;
+    background-color: darkgoldenrod;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.superiore {
+    height: 40%;
+    background-color: rgba(0,0,0, .25);
+}
