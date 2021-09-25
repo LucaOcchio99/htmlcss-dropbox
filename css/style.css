@@ -15,7 +15,7 @@
 /* STILE HEADER */
 header {
     height: 15vh;
-    width: 100vw;
+    width: 100%;
     background-color: aquamarine
 }
 
@@ -66,7 +66,7 @@ section {
 
 /* PIANO DROPBOX */
 .piano_dropbox {
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     background-color: khaki;
 }
@@ -88,9 +88,145 @@ section {
 }
 
 /* TABELLE */
-.tabelle {
-    width: 80vw;
-    height: 80vh;
+.contenitore_tabelle {
+    width: 100%;
+    height: 90vh;
     margin: 0 auto;
     background-color: forestgreen;
+}
+
+.tabelle {
+    height: 100%;
+    width: 80%;
+    background-color: lightpink;
+    margin: auto;
+}
+
+.tabella {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: bisque;
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.table {
+    width: 80%;
+    height: 80%;
+    background-color: brown;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* ENTERPRISE */
+.enterprise {
+    width: 100%;
+    height: 200px;
+    background-color: cyan;
+    margin: auto;
+
+    position: relative;
+}
+
+.enterprise_1 {
+    width: 80%;
+    height: 80%;
+    background-color: darkkhaki;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* STILE PARTNER DROPBOX */
+.partner_dropbox {
+    height: 500px;
+    background-color: darkolivegreen;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.partner_contenitore {
+    width: 80%;
+    height: 80%;
+    background-color: darkorange;
+    display: inline-block;
+    float: left;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.immagine_partner,
+.testo_partner {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
+
+/* OPERAZIONI DROPBOX */
+.operazioni_dropbox {
+    height: 1000px;
+    width: 100%;
+    background-color: gold;
+}
+
+.testo_esegui {
+    height: 150px;
+    width: 80%;
+    background-color: honeydew;
+    margin: 0 auto;
+}
+
+.sezione {
+    height: 425px;
+    width: 80%;
+    background-color: lavender;
+    margin: 0 auto;
+}
+
+.blocchi_piccoli {
+    width: calc(100%/3);
+    height: 100%;
+    background-color: lawngreen;
+    display: inline-block;
+    float: left;
+
+    border: 1px solid black;
+}
+
+/*   DROPBOX_BUSINESS  */
+.dropbox_business {
+    height: 200px;
+    background-color: lightblue;
+}
+
+.business_superiore,
+.business_inferiore {
+    width: 80%;
+    background-color: gold;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.business_superiore {
+    height: 150px;
+}
+
+.business_inferiore {
+    height: 50px;
 }
