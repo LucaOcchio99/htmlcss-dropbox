@@ -39,7 +39,7 @@ article {
 
 section {
     height: 80%;
-    width: 70%;
+    width: 90%;
     background-color: darkgoldenrod;
     
     position: absolute;
@@ -213,6 +213,8 @@ section {
 .dropbox_business {
     height: 200px;
     background-color: lightblue;
+
+    position: relative;
 }
 
 .business_superiore,
@@ -229,4 +231,135 @@ section {
 
 .business_inferiore {
     height: 50px;
+}
+
+/* INIZIO DESIGNT */
+.designit {
+    height: 300px;
+    background-color: coral;
+    margin: 0 auto;
+}
+
+aside {
+    width: 25%;
+    height: 300px;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+.centrale {
+    width: 50%;
+    height: 300px;
+    background-color: cornsilk;
+    float: left;
+}
+
+.sup {
+    width: 100%;
+    height: 150px;
+    background-color: darkgoldenrod;
+}
+
+.inf {
+    width: 100%;
+    height: 150px;
+    background-color: green;
+}
+
+.sx {
+    width: 50%;
+    height: 150px;
+    background-color: greenyellow;
+    float: left;
+    border: 1px solid black;
+}
+
+.dx {
+    width: 50%;
+    height: 150px;
+    background-color: lightsalmon;
+    float: left;
+    border: 1px solid black;
+}
+
+
+/* INIZIO DROPBOX_BUSINESS_2 */
+.dropbox_centrato {
+    width: 80%;
+    height: 80%;
+    background-color: blanchedalmond;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* INIZIO DOMANDE FREQUENTI */
+.domande_frequenti {
+    height: 600px;
+    background-color: crimson;
+    position: relative;
+}
+
+.domande_frequenti_centro {
+    height: 80%;
+    width: 80%;
+    background-color: darkolivegreen;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titolo {
+    height: 28%;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+.differenza {
+     height: 18%;
+     background-color: aliceblue;
+     border: 1px solid black; 
+}
+
+/* INIZIO FOOTER */
+footer {
+    height: 400px;
+    background-color: burlywood;
+
+    position: relative;
+}
+
+.centro_footer {
+    height: 80%;
+    width: 90%;
+    background-color: chocolate;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tabelle_footer {
+    height: 70%;
+    background-color: brown;
+}
+
+.tabella_footer {
+    width: 20%;
+    height: 100%;
+    background-color: cyan;
+    border: 1px solid black;
+
+    display: inline-block;
+    float: left;
+}
+
+.orizzontale {
+    height: 30%;
+    background-color: rgb(212, 192, 192);
 }
