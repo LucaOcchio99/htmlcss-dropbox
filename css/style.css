@@ -224,7 +224,7 @@ section {
 /* ENTERPRISE */
 .enterprise {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: cyan;
     margin: auto;
 
@@ -240,6 +240,31 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.titolo_team {
+    height: 70px;
+    border: 1px solid black;
+}
+
+.titolo_team p {
+    text-align: center;
+    line-height: 70px;
+}
+
+.contatta_button {
+    height: 70px;
+    border: 1px solid black;
+}
+
+.contatta_button p{
+    display: inline-block;
+    margin-right: 800px;
+}
+
+.ufficio_vendite {
+    height: 100px;
+    border: 1px solid black;
 }
 
 /* STILE PARTNER DROPBOX */
@@ -274,6 +299,14 @@ section {
     border: 1px solid black;
 }
 
+.immagine_partner {
+    background-image: url(../img/partner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
 /* OPERAZIONI DROPBOX */
 .operazioni_dropbox {
     height: 1000px;
@@ -305,6 +338,15 @@ section {
     border: 1px solid black;
 }
 
+.immagine_blocco_piccolo {
+    height: 250px;
+    border: 1px solid black;
+}
+
+.immagine_blocco_piccolo img {
+  height: 100%;
+}
+
 /*   DROPBOX_BUSINESS  */
 .dropbox_business {
     height: 200px;
@@ -331,51 +373,81 @@ section {
 
 /* INIZIO DESIGNT */
 .designit {
-    height: 300px;
+    height: 400px;
     background-color: coral;
     margin: 0 auto;
 }
 
 aside {
     width: 25%;
-    height: 300px;
+    height: 400px;
     background-color: cornflowerblue;
     float: left;
 }
 
 .centrale {
     width: 50%;
-    height: 300px;
+    height: 400px;
     background-color: cornsilk;
     float: left;
 }
 
+.img_designt {
+    height: 120px;
+    border: 1px solid black;
+}
+
+.testo_designt {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.nome_autore {
+    height: 80px;
+    border: 1px solid black;
+}
+
 .sup {
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: darkgoldenrod;
 }
 
 .inf {
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: green;
 }
 
 .sx {
     width: 50%;
-    height: 150px;
+    height: 200px;
     background-color: greenyellow;
     float: left;
     border: 1px solid black;
+
+    position: relative;
 }
 
 .dx {
     width: 50%;
-    height: 150px;
+    height: 200px;
     background-color: lightsalmon;
     float: left;
     border: 1px solid black;
+
+    position: relative;
+}
+
+.sx img,
+.dx img {
+   height: 60%;
+   width: 70%;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 
