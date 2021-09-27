@@ -145,7 +145,7 @@ section {
 /* TABELLE */
 .contenitore_tabelle {
     width: 100%;
-    height: 90vh;
+    height: 700px;
     margin: 0 auto;
     background-color: forestgreen;
 }
@@ -168,16 +168,57 @@ section {
     position: relative;
 }
 
-.table {
+.table_uno,
+.table_due,
+.table_tre{
     width: 80%;
-    height: 80%;
+    height: 100%;
     background-color: brown;
+    border: 1px solid black;
+}
 
+.table_due {
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
+}
 
+.table_tre {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+}
+
+.singolo_team {
+    height: 50px;
+    background-color: aqua;
+}
+
+.singolo_team p {
+    text-align: center;
+    line-height: 50px;
+}
+
+.primo_blocco {
+    height: 100px;
+    border: 0.5px solid black;
+}
+
+.secondo_blocco {
+    height: 150px;
+    border: 0.5px solid black;
+}
+
+.terzo_blocco {
+    height: 80px;
+    border: 0.5px solid black;
+}
+
+.quarto_blocco {
+    height: 250px;
+    border: 0.5px solid black;
 }
 
 /* ENTERPRISE */
