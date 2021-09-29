@@ -80,14 +80,14 @@ li button {
 
 /* STILE ARTICLE */
 article {
-    height: 800px;
+    height: 680px;
     background-color: burlywood;
     
     position: relative;
 }
 
 section {
-    height: 80%;
+    height: 592px;
     width: 90%;
     background-color: darkgoldenrod;
     
@@ -109,7 +109,7 @@ section {
     display: inline-block;
     float: left;
     width: 50%;
-    height: 70%;
+    
     border: 0.5px solid black;
 }
 
@@ -142,10 +142,13 @@ section {
     font-size: 40px;
 }
 
+
 .inferiore_destra img {
     height: 350px;
-    margin-top: 50px;
     margin-right: 10px;
+
+    position: relative;
+    top: 50px;
 }
 
 
@@ -168,8 +171,8 @@ section {
 }
 
 .seconda_sezione {
-    height: 100px;
-    line-height: 100px;
+    height: 60px;
+    line-height: 60px;
 }
 
 /* TABELLE */
@@ -789,5 +792,5 @@ footer {
 }
 
 .fa-sort-up {
-    
+
 }
