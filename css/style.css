@@ -26,7 +26,6 @@ li a {
 header {
     height: 100px;
     width: 100%;
-    background-color: aquamarine;
 }
 
 nav li  {
@@ -55,8 +54,6 @@ nav ul {
     float: left;
     height: 100%;
     width: 50%;
-    background-color: rgba(0,0,0, .25);
-    border: 0.5px solid black;
 
     position: relative;
 } 
@@ -80,41 +77,37 @@ li button {
 
 /* STILE ARTICLE */
 article {
-    height: 680px;
-    background-color: burlywood;
-    
+    height: 620px;    
     position: relative;
 }
 
 section {
-    height: 592px;
-    width: 90%;
-    background-color: darkgoldenrod;
+    height: 521px;
+    width: 100%;
+    background-color: lightblue;
     
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
 }
 
 .superiore {
-    background-color: rgba(0,0,0, .25);
-    border: 0.5px solid black;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 70px;
+    margin-left: 60px;
 }
 
 .inferiore_sinistra,
 .inferiore_destra {
     display: inline-block;
     float: left;
-    width: 50%;
-    
-    border: 0.5px solid black;
+    width: 50%;    
 }
 
 .inferiore_sinistra p:first-child {
     margin-top: 50px;
+    margin-left: 60px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -122,6 +115,7 @@ section {
 .inferiore_sinistra button {
     margin-top: 25px;
     margin-bottom: 10px;
+    margin-left: 60px;
     display: block;
 
     height: 40px;
@@ -133,12 +127,13 @@ section {
 
 .inferiore_sinistra p a {
     font-size: 15px;
+    margin-left: 60px;
 }
 
 .fa-arrow-down {
     font-size: 50px;
     margin-top: 30px;
-
+    margin-left: 60px;
     font-size: 40px;
 }
 
@@ -153,16 +148,10 @@ section {
 
 
 /* PIANO DROPBOX */
-.piano_dropbox {
-    background-color: khaki;
-}
-
 .prima_sezione,
 .seconda_sezione {
     width: 80%;
     margin: 0 auto;
-    background-color: rgba(0,0,0, .25);
-    border: 0.5px solid black;
 }
 
 .prima_sezione p {
@@ -180,23 +169,19 @@ section {
     width: 100%;
     height: 700px;
     margin: 0 auto;
-    background-color: forestgreen;
 }
 
 .tabelle {
     height: 100%;
     width: 80%;
-    background-color: lightpink;
     margin: auto;
 }
 
 .tabella {
     width: calc(100% / 3);
     height: 100%;
-    background-color: bisque;
     display: inline-block;
     float: left;
-    border: 1px solid black;
 
     position: relative;
 }
@@ -206,7 +191,6 @@ section {
 .table_tre{
     width: 90%;
     height: 100%;
-    background-color: brown;
     border: 1px solid black;
 }
 
@@ -226,8 +210,8 @@ section {
 
 .singolo_team {
     height: 50px;
-    background-color: aqua;
     font-weight: 700;
+    border-bottom: 0.5px solid black;
 }
 
 .singolo_team p {
@@ -237,7 +221,6 @@ section {
 
 .primo_blocco {
     height: 100px;
-    border: 0.5px solid black;
 }
 
 .primo_blocco p:first-child {
@@ -257,7 +240,6 @@ section {
 
 .secondo_blocco {
     height: 150px;
-    border: 0.5px solid black;
 }
 
 .secondo_blocco p {
@@ -266,7 +248,6 @@ section {
 
 .terzo_blocco {
     height: 100px;
-    border: 0.5px solid black;
 }
 
 .terzo_blocco button {
@@ -279,7 +260,6 @@ section {
 
 .quarto_blocco {
     height: 282px;
-    border: 0.5px solid black;
 }
 
 .quarto_blocco p {
@@ -299,7 +279,6 @@ section {
 .enterprise {
     width: 100%;
     height: 300px;
-    background-color: cyan;
     margin: auto;
 
     position: relative;
@@ -308,7 +287,6 @@ section {
 .enterprise_1 {
     width: 80%;
     height: 80%;
-    background-color: darkkhaki;
 
     position: absolute;
     top: 50%;
@@ -318,7 +296,7 @@ section {
 
 .titolo_team {
     height: 70px;
-    border: 1px solid black;
+    border: 0.5px solid black;
 }
 
 .titolo_team p {
@@ -328,9 +306,9 @@ section {
 
 .contatta_button {
     height: 70px;
-    border: 1px solid black;
     line-height: 70px; 
-
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
     position: relative;
 }
 
@@ -356,7 +334,9 @@ section {
 
 .ufficio_vendite {
     height: 100px;
-    border: 1px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
 }
 
 .ufficio_vendite p {
@@ -373,7 +353,6 @@ section {
 /* STILE PARTNER DROPBOX */
 .partner_dropbox {
     height: 500px;
-    background-color: darkolivegreen;
     margin: 0 auto;
 
     position: relative;
@@ -382,7 +361,6 @@ section {
 .partner_contenitore {
     width: 80%;
     height: 80%;
-    background-color: darkorange;
     display: inline-block;
     float: left;
 
@@ -398,8 +376,6 @@ section {
     height: 100%;
     display: inline-block;
     float: left;
-    background-color: deepskyblue;
-    border: 1px solid black;
 }
 
 .immagine_partner {
@@ -428,13 +404,11 @@ section {
 .operazioni_dropbox {
     height: 1000px;
     width: 100%;
-    background-color: gold;
 }
 
 .testo_esegui {
     height: 150px;
     width: 80%;
-    background-color: honeydew;
     margin: 0 auto;
     line-height: 150px;
 
@@ -448,18 +422,14 @@ section {
 .sezione {
     height: 425px;
     width: 80%;
-    background-color: lavender;
     margin: 0 auto;
 }
 
 .blocchi_piccoli {
     width: calc(100%/3);
     height: 100%;
-    background-color: lawngreen;
     display: inline-block;
     float: left;
-
-    border: 1px solid black;
 }
 
 .blocchi_piccoli p:first-of-type {
@@ -470,7 +440,6 @@ section {
 
 .immagine_blocco_piccolo {
     height: 250px;
-    border: 1px solid black;
 }
 
 .immagine_blocco_piccolo img {
@@ -480,17 +449,13 @@ section {
 /*   DROPBOX_BUSINESS  */
 .dropbox_business {
     height: 200px;
-    background-color: lightblue;
-
     position: relative;
 }
 
 .business_superiore,
 .business_inferiore {
     width: 80%;
-    background-color: gold;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .business_superiore {
@@ -517,14 +482,12 @@ section {
 /* INIZIO DESIGNT */
 .designit {
     height: 400px;
-    background-color: coral;
     margin: 0 auto;
 }
 
 aside {
     width: 25%;
     height: 400px;
-    background-color: cornflowerblue;
     float: left;
 }
 
@@ -537,8 +500,6 @@ aside {
 
 .img_designt {
     height: 120px;
-    border: 1px solid black;
-
     position: relative;
 }
 
@@ -555,8 +516,6 @@ aside {
 
 .testo_designt {
     height: 200px;
-    border: 1px solid black;
-
     position: relative;
 }
 
@@ -572,29 +531,23 @@ aside {
 
 .nome_autore {
     height: 80px;
-    border: 1px solid black;
-    
     padding-left: 25px;
 }
 
 .sup {
     width: 100%;
     height: 200px;
-    background-color: darkgoldenrod;
 }
 
 .inf {
     width: 100%;
     height: 200px;
-    background-color: green;
 }
 
 .sx {
     width: 50%;
     height: 200px;
-    background-color: greenyellow;
     float: left;
-    border: 1px solid black;
 
     position: relative;
 }
@@ -602,9 +555,7 @@ aside {
 .dx {
     width: 50%;
     height: 200px;
-    background-color: lightsalmon;
     float: left;
-    border: 1px solid black;
 
     position: relative;
 }
@@ -617,7 +568,6 @@ aside {
 .dx img {
    height: 60%;
    width: 70%;
-
    position: absolute;
    top: 50%;
    left: 50%;
@@ -626,11 +576,14 @@ aside {
 
 
 /* INIZIO DROPBOX_BUSINESS_2 */
+#colore_dropbox_business {
+    background-color: lightblue;
+}
+
 .dropbox_centrato {
     width: 80%;
     height: 150px;
-    background-color: blanchedalmond;
-    
+    background-color: lightblue;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -641,7 +594,6 @@ aside {
 .dropbox_centroDestra {
     height: 150px;
     width: 50%;
-    border: 1px solid black;
     display: inline-block;
     float: left;
 
@@ -674,14 +626,12 @@ aside {
 /* INIZIO DOMANDE FREQUENTI */
 .domande_frequenti {
     height: 600px;
-    background-color: crimson;
     position: relative;
 }
 
 .domande_frequenti_centro {
     height: 80%;
     width: 80%;
-    background-color: darkolivegreen;
 
     position: absolute;
     top: 50%;
@@ -691,8 +641,7 @@ aside {
 
 .titolo {
     height: 134px;
-    background-color: darkorange;
-    border: 1px solid black;
+    border-bottom: 0.5px solid black;
 }
 
 .titolo p {
@@ -703,8 +652,7 @@ aside {
 
 .differenza {
      height: 87px;
-     background-color: aliceblue;
-     border: 1px solid black; 
+     border-bottom: 0.5px solid black;
 
      position: relative;
 }
@@ -726,7 +674,7 @@ aside {
 /* INIZIO FOOTER */
 footer {
     height: 400px;
-    background-color: burlywood;
+    background-color: black;
 
     position: relative;
 }
@@ -734,7 +682,6 @@ footer {
 .centro_footer {
     height: 80%;
     width: 90%;
-    background-color: chocolate;
 
     position: absolute;
     top: 50%;
@@ -743,16 +690,13 @@ footer {
 }
 
 .tabelle_footer {
-    height: 70%;
-    background-color: brown;
-    
+    height: 70%; 
+    color: white;
 }
 
 .tabella_footer {
     width: 20%;
     height: 100%;
-    background-color: cyan;
-    border: 1px solid black;
 
     display: inline-block;
     float: left;
@@ -760,6 +704,7 @@ footer {
 
 .tabella_footer a {
     text-decoration: none;
+    color: white;
 }
 
 .tabella_footer p:first-child {
@@ -777,20 +722,16 @@ footer {
 }
 
 .orizzontale {
-    height: 30%;
-    background-color: rgb(212, 192, 192);
+    height: 63px;
+    background-color: black;
 }
 
 .italiano {
     height: 100%;
     width: 20%;
-    border: 1px solid black;
 }
 
 .italiano p {
     margin-top: 72px;
-}
-
-.fa-sort-up {
-
+    color: white;
 }
